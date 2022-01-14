@@ -1,0 +1,159 @@
+
+
+.reservation_card{
+    border-radius: 25px;
+    transition: transform .2s;
+    margin-bottom: 2%;
+    position: relative;
+    width: 100%;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+    background: url(../../assets/table.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 20%;
+    color: white;
+    height: 100%;
+
+}
+
+.reservation_card:hover {
+    transform: scale(1.0);
+    filter: drop-shadow(0 0 0.75rem black);
+    z-index: 4;
+    position: relative;
+}
+
+
+
+.reservation_card_header img {
+    width: 60%;
+    display: block;
+    margin:12% auto;
+}
+
+
+.about_card{
+    border-radius: 25px;
+    transition: transform .2s;
+    margin-bottom: 2%;
+    position: relative;
+    width: 100%;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+    /* background: url(../../assets/logo.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: black;
+    padding: 10% 20%;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+
+.about_card::after{
+    content:'';
+    background: url(../../assets/logo.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    border-radius: 25px;
+    opacity: 0.38;
+}
+
+.about_card:hover {
+    transform: scale(1.0);
+    filter: drop-shadow(0 0 0.75rem black);
+    z-index: 4;
+    position: relative;
+}
+
+
+
+.bg_overlay {
+    background: #00000070;
+    border-radius: 25px;
+
+}
+
+.custom_btn {
+    color: white;
+    background: #feb445;
+    text-decoration: none;
+    border: 2px solid #feb445;
+    border-radius: 25px;
+    width: 176px;
+    padding: 7px 0px;
+    text-align: center;
+
+    
+}
+
+.custom_btn:hover {
+    background: #feb445;
+    border: 2px solid #feb445;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
+
+}
+
+@media (min-width: 500px)
+{
+    .about_card{
+        padding: 3%;
+        height: 98%;
+      
+    }
+
+    .reservation_card_inner {
+        background: radial-gradient(black, transparent);
+
+    }
+
+    .bg_overlay {
+        border-radius: 25px;
+    
+    }
+
+    .about_card{
+        padding: 10% 5%;
+       
+        
+    }
+		
+}
+
+
+
+@media (min-width: 993px){
+  
+.about_card{
+    padding: 10% 20%;
+    height: 95%;
+}
+
+.reservation_card_header {
+    position: absolute;
+    top: -15%;
+    left: -6%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: rgba(46, 4, 4, 0.1);
+}
+
+.about_card{
+    padding: 10% 20%;
+
+}
+
+
+		
+}

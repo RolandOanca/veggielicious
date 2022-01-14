@@ -1,0 +1,14 @@
+.nav {
+    height: 120px;
+}
+.nav_links {
+    font-size: 30px;
+}
+
+.nav_chart {
+    position: absolute;
+    right: 17%;
+    z-index: 1;
+    top: 18%;
+    width: 3%;
+}
