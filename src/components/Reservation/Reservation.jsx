@@ -1,9 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container , Row, Col, Image, Button  } from 'react-bootstrap';
+import { Container , Row, Col, Button  } from 'react-bootstrap';
 import classes from './Reservation.module.css';
 
-import logo from "../../assets/logo.png";
 
 
 

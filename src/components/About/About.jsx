@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container , Row, Col, Image, Button  } from 'react-bootstrap';
+import { Container , Row, Col, Image  } from 'react-bootstrap';
 import classes from './About.module.css';
 
 import map from "../../assets/map.png";
