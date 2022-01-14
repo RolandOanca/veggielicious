@@ -22,8 +22,8 @@ const MenuItem = (props) => {
                             const {
                                 id, name, image, description, price } = elemnt;
                                 return (
-                                    <Col md={6} sm={12} >
-                                        <div className={classes.card} key={id} id={id}>
+                                    <Col md={6} sm={12} key={id} id={id}>
+                                        <div className={classes.card} >
                                             <div className={classes.menu_item}>
                                                 <Image src={image} fluid className={classes.menu_img}/>
                                             </div>

@@ -138,7 +138,7 @@ const CategoryGrid = (props) => {
                             <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
                             <Button  className={classes.custom_btn }  onClick={() => {
                                 handleShow(values)
-                                filterItem('burger')
+                                filterItem('burgger')
                                 }}>
                                     See the Menu
                             </Button>
