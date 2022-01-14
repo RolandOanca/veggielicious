@@ -1,5 +1,4 @@
 
-import CartContext from '../../store/cart-context';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from './Cart.module.css';
 import close from "../../assets/close.svg";

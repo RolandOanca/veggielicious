@@ -1,8 +1,7 @@
 import React, { useContext} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container , Row, Col, Image,} from 'react-bootstrap';
-import AddButton from '../UI/AddButton/AddButton';
-import CartContext from '../../store/cart-context';
+
 import classes from './MenuItem.module.css';
 import cart from "../../assets/cart.svg";
 import heart from "../../assets/heart.svg";
